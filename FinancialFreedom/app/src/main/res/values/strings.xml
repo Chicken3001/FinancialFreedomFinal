@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    'base
+    <string name="app_name">Financial Freedom</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    'intro
+    <string name="title">Financial Freedom</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="newUser">New User?</string>
+    <string name="newUserTitle">New User</string>
+    'new_user
+    <string name="userName">Username</string>
+    <string name="passwordConfirm">Confirm Password</string>
+    <string name="createNewUser">OK!</string>
+    <string name="terms">By clicking "OK!" you agree to the</string>
+    <string name="use">Terms of Use</string>
+    <string name="userIncome">Monthly Income</string>
+    <string name="userExpenses">Monthly Expenses</string>
+    'goals
+    <string name="newGoal">New</string>
+    <string name="newGoalTitle">New Goal</string>
+    <string name="goalTitle">Goals</string>
+    <string name="goalName">Name</string>
+    <string name="goalDesc">Description</string>
+    <string name="goalAmount">Amount</string>
+    <string name="goalDate">Date of Purchase</string>
+    <string name="goalOr">OR</string>
+    <string name="goalAmountPerMonth">Amount/Month Contributed</string>
+    <string name="goalSetGoal">Set Goal!</string>
+
+    'home screen
+    <string name="overviewTitle">Overview</string>
+    <string name="btnLogout">Logout</string>
+    <string name="incomeTitle">Disposable Income</string>
+    <string name="homeNote">*After Expenses</string>
+    <string name="homeFillerVal">$5,000</string>
+    <string name="homeGoalTitle">Your Finances</string>
+
+    'debts
+    <string name="debtsTitle">Loans</string>
+    <string name="debtsNew">New Loan</string>
+    <string name="debtsAmountPerMonth">Amount/Month Deducted</string>
+    <string name="debtsEndDate">Repayment Date</string>
+
+    'Spending
+    <string name="spendingTitle">Spending</string>
+    <string name="spendingChart">Categorical Spending</string>
+    <string name="spendingViewChart">Chart</string>
+
+    'Accounts
+    <string name="transferTitle">Transfer</string>
+    <string name="transferBtn">Steal</string>
+
+    'cancel
+    <string name="btnCancel">Cancel</string>
+    <string name="btnBack">Back</string>
+
+    'chart
+    <string name="chartTitle">Percents</string>
+
+
+
+</resources> 

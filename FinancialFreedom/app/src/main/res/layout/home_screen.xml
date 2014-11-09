@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/overviewTitle"
+        android:id="@+id/textView17"
+        android:textColor="@color/green"
+        android:textSize="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/btnLogout"
+        android:id="@+id/button13"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:textColor="@color/white"
+        android:background="@color/lightRed"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView17"
+        android:layout_toEndOf="@+id/textView17"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:onClick="LogOut"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/incomeTitle"
+        android:id="@+id/textView18"
+        android:textColor="@color/green"
+        android:textSize="26dp"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homeNote"
+        android:id="@+id/textView19"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView18"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/homeFillerVal"
+        android:id="@+id/DisposableIncomeView"
+        android:layout_toEndOf="@+id/textView18"
+        android:paddingTop="20dp"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_alignRight="@+id/button13"
+        android:layout_alignEnd="@+id/button13"
+        android:textColor="@color/green"
+        android:gravity="end"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/homeGoalTitle"
+        android:id="@+id/textView21"
+        android:textColor="@color/green"
+        android:textSize="26dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goalTitle"
+        android:id="@+id/button3"
+        android:textColor="@color/white"
+        android:background="@color/teal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="Goals"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/debtsTitle"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@color/teal"
+        android:textColor="@color/white"
+        android:onClick="Loans"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spendingTitle"
+        android:id="@+id/button5"
+        android:textColor="@color/white"
+        android:background="@color/teal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:onClick="Spending"/>
+
+</RelativeLayout>
